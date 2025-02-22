@@ -8,7 +8,7 @@ class UserController{
         } catch (e) {
             res.json({ error: "error en la peticion" });
             
-    }
+    } 
     }
     static async login(req, res) {
         try {
